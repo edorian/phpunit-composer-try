@@ -5,6 +5,8 @@
 
 #Usage
 
+##Installing
+
 You need to include the following into your `composer.json`:
 
 ```json
@@ -32,4 +34,12 @@ You need to include the following into your `composer.json`:
 and run
 
     php composer.phar install --dev
+
+##Running phpunit
+
+To execute your unit tests run:
+
+    php vendor/bin/phpunit-wrapper.php
+
+or symlink that into your root folder. I'm looking for a way to automate this properly that works for everyone (win/linux/mac).
 
