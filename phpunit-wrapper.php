@@ -28,4 +28,6 @@ set_include_path(
     __DIR__ . '/../../pear-pear.symfony-project.com/YAML/'
 );
 
-require __DIR__ . '/../../pear-pear.phpunit.de/PHPUnit/bin/phpunit';
+require __DIR__ . '/../../pear-pear.phpunit.de/PHPUnit/PHPUnit/Autoload.php';
+PHPUnit_TextUI_Command::main();
+
