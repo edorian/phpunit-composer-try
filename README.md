@@ -2,7 +2,6 @@
 
  - Maybe add post install script that links the phpunit-wrapper script into the project root
  - Gather more feedback
- - Currently the script outputs `#!/usr/bin/php` when run. Not a "Problem" but ugly
 
 #Usage
 
