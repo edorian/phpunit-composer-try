@@ -7,6 +7,8 @@
 
 ##Installing
 
+Prerequirenments are git and composer.
+
 You need to include the following into your `composer.json`:
 
 ```json
