@@ -1,0 +1,20 @@
+{
+  "name": "phpunit-testing/phpunit",
+  "bin": ["./phpunit-wrapper.php"],
+  "require": {
+        "pear-phpunit/phpunit": "3.6.11",
+        "pear-phpunit/phpunit_story": "1.0.0",
+        "pear-phpunit/phpunit_selenium": "1.2.*",
+        "pear-phpunit/dbunit": "1.1.*"
+  },
+  "repositories": [
+      {
+          "type": "pear",
+          "url":  "pear.phpunit.de"
+      },
+      {
+          "type": "pear",
+          "url":  "pear.symfony-project.com"
+      }
+  ]
+}
