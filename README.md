@@ -43,5 +43,10 @@ To execute your unit tests run:
 
     php vendor/bin/phpunit-wrapper.php
 
-or symlink that into your root folder. I'm looking for a way to automate this properly that works for everyone (win/linux/mac).
+or symlink that into your root folder. 
 
+For Windows you can use:
+
+    vendor\bin\phpunit-wrapper.php.bat
+
+I'm looking for a way to automate this properly that works for everyone (win/linux/mac).
